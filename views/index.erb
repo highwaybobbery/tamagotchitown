@@ -1,0 +1,5 @@
+<ul>
+  <% Nerd.members.each do |id, member| %>
+    <li><a href="/tamagotchi/<%= id %>"><%= member.name %></li>
+  <% end %>
+</ul>
